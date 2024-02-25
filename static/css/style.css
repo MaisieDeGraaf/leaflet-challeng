@@ -9,9 +9,18 @@ html {
   height: 100%;
 }
 
+.info.legend {
+  background-color: white; 
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
 .info.legend i {
-  width: 20px; 
-  height: 20px; 
-  display: inline-block;
-  margin-right: 5px; 
+  background: rgba(255, 255, 255, 0.8); 
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.8; 
 }
